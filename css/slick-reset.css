@@ -1,0 +1,102 @@
+.slick-prev {
+    color: #fff;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: transparent;
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 50%;
+    margin-top: -31px;
+    border-bottom: 5px solid #7b7b73;
+    border-left: 5px solid #7b7b73;
+    transform: rotate(45deg);
+    left: -50px;
+    opacity: 0.6;
+    font-size: 0;
+}
+
+.slick-next {
+    color: #fff;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    border-bottom: 5px solid #7b7b73;
+    border-left: 5px solid #7b7b73;
+    transform: rotate(-135deg);
+    right: 10px;
+    opacity: 0.6;
+    font-size: 0;
+}
+
+.header-content .slick-dots li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header-content .slick-dots li button{
+    background-color: #7b7b73;
+    color: #7b7b73;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    padding: 0.2px 3px !important;
+}
+
+.header-content .slick-dots li button:hover {
+    background-color: #747a4e;
+}
+
+.recent-posts-cards .slick-dots {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.recent-posts-cards .slick-dots li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.recent-posts-cards .slick-dots li button{
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+    border-bottom: 5px solid #7b7b73;
+    border-left: 5px solid #7b7b73;
+    transform: rotate(45deg);
+    opacity: 0.6;
+    font-size: 0;
+}
+
+.recent-posts-cards .slick-dots li:nth-child(2) button{
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #fff;
+    margin-top: -31px;
+    border-bottom: 5px solid #7b7b73;
+    border-left: 5px solid #7b7b73;
+    transform: rotate(-135deg);
+    opacity: 0.6;
+    font-size: 0;
+}
